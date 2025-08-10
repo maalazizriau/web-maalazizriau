@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahkan utility custom jika diperlukan */
+.max-w-7xl {
+    max-width: 80rem;
+}

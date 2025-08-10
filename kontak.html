@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Madrasah Aliyah Al-Aziz Riau</title>
+    <meta name="description" content="Hubungi Madrasah Aliyah Al-Aziz Riau melalui form kontak, telepon, email, atau kunjungi lokasi kami.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="bg-white shadow-sm sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/img/LogoMAAl-AzizRiau.png" alt="Logo Madrasah" width="50" height="50" class="d-inline-block align-text-top me-2">
+                    <span class="fs-4 fw-bold text-dark-green">MA AL-AZIZ RIAU</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-dark-green" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark-green" href="profil.html">Profil</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark-green" href="jurusan.html">Jurusan</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark-green" href="berita.html">Berita</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark-green" href="galeri.html">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark-green" href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark-green active" aria-current="page" href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <h1 class="text-center section-heading fs-2 fw-bold text-dark-green mx-auto mb-5">Hubungi Kami</h1>
+            
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2 class="fs-4 fw-bold text-dark-green mb-4">Kirim Pesan</h2>
+                    <form action="mailto:info.maalazizriau@gmail.com" method="post" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="namaLengkap" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="nama@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom btn-lg">Kirim Pesan</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fs-4 fw-bold text-dark-green mb-4">Lokasi & Kontak</h2>
+                    <p><i class="fa-solid fa-location-dot me-2 text-gold"></i> Jl. Sultan Syarif Ali, No. 53, Balaikayang II, Kec. Siak, Kab. Siak, Prov. Riau, 28773.</p>
+                    <p><i class="fa-solid fa-phone me-2 text-gold"></i> +62 878-1063-3343</p>
+                    <p><i class="fa-solid fa-envelope me-2 text-gold"></i> info.maalazizriau@gmail.com</p>
+                    <p><i class="fa-solid fa-calendar-days me-2 text-gold"></i> Jam Kerja: Senin-Jumat, 08:00 - 16:00 WIB</p>
+                    <div class="embed-responsive embed-responsive-16by9 rounded shadow-sm overflow-hidden mt-4" style="height: 300px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.42816714272!2d102.0447372605462!3d0.8012761130901389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d42710f1f65a9f%3A0x6fc49f17ecf208ca!2sMA%20KEJURUAN%20AL%20-%20AZIZ%20RIAU!5e0!3m2!1sid!2sid!4v1754831021223!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="assets/img/LogoMAAl-AzizRiau.png" alt="Logo Madrasah" width="50" class="me-2">
+                        <h5 class="fw-bold text-white mb-0">MA Al-Aziz Riau</h5>
+                    </div>
+                    <p class="text-white-50">Jl. Sultan Syarif Ali, No. 53, Balaikayang II, Kec. Siak, Kab. Siak, Prov. Riau, 28773.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-gold">Tautan Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profil.html">Profil</a></li>
+                        <li><a href="jurusan.html">Jurusan</a></li>
+                        <li><a href="berita.html">Berita</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-gold">Hubungi Kami</h5>
+                    <p class="text-white-50"><i class="fa-solid fa-envelope me-2"></i><a href=mailto:info.maalazizriau@gmail.com">info.maalazizriau@gmail.com</a></p>
+                    <p class="text-white-50"><i class="fa-solid fa-phone me-2"></i><a href="tel:+628781063343">+62 878-1063-3343</a></p>
+                    <div class="d-flex social-icons mt-3">
+                        <a href="https://www.facebook.com/share/16rqR2cvhF/" class="text-gold me-3"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                        <a href="https://www.instagram.com/al_aziz_riau?igsh=djBhZmF5d2xudjVr" class="text-gold me-3"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://www.tiktok.com/@ma.riaualaziz?_t=ZS-8ykZ7SCmici&_r=1" class="text-gold"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-white-50 mt-4">
+                <p>&copy; 2025 Madrasah Aliyah Al-Aziz Riau. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -67,3 +67,11 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+
+.bg-custom-blue {
+    background-color: #01468a;
+}
+
+.text-custom-dark-white {
+    color: #dedfe0;
+}
